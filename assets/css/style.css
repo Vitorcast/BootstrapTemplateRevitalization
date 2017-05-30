@@ -7,7 +7,7 @@
 
 body {
     overflow-x: hidden;
-    font-family:'Open Sans', sans-serif;
+    font-family:'Roboto', sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing:antialiazed !important;
 }
@@ -30,7 +30,7 @@ a:active {
 h1,
 h2,
 h4 {
-    font-family:'Open Sans', sans-serif;
+    font-family:'Roboto', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -109,5 +109,10 @@ p {
 
 .navbar .navbar-collapse {
     text-align: center;
+}
+
+.navbar .btn {
+    background-color:#FFB700;
+    color:white;
 }
 
