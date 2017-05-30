@@ -56,18 +56,48 @@ p {
 /*My Styles*/
 
 .social-top {
+    padding: 5px 0;
+    background-color:#242424;
+    color:white;    
+    font-family:'Roboto', sans-serif;
+}
+
+.social-top i {
+    margin-right: 5px;
+}
+
+.social-top .fa-twitter, .fa-envelope, .fa-phone {
+    color:#FFB700;
+}
+
+.social-top ul {
+    margin: 0px;
+}
+
+.social-top li {
     margin:0 10px;
 }
 
-.logo{
+.logo {
     background-color:white;
+     
+}
+
+.logo img {    
+    height:100px;
 }
 
 
 /*Custom Bootstrap*/
 
 .navbar {
-    /*background-color: white;*/
+    background-color: #FDFDFD;
+    border:none;
+}
+
+.navbar-header a {
+    padding:0 15px;
+    line-height:80px;    
 }
 
 
