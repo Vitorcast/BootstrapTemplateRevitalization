@@ -43,7 +43,27 @@ p {
 .btn {
     transition: all 300ms ease-in-out;
     font-weight: 500 !important;
-    text-transform:uppercase;
+    text-transform:uppercase;   
+}
+.btn i  {
+    margin-right:5px;
+}
+
+.btn-primary {
+    background-color:#FFB700; /* Primary Color */
+    color:white;
+    border:none;
+}
+
+.btn-lg.round {
+	border-radius: 24px;    
+}
+
+
+.btn-secondary {
+    background-color:#1F1F1F; /* Secondary Color */
+    color:white;
+    border:none;
 }
 
 .btn:hover {
@@ -92,7 +112,19 @@ p {
 
 .navbar {
     background-color: #FDFDFD;
-    border:none;
+    border:none !important;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar a {
+    color:#fff;
+    opacity: 0.7;
+}
+
+.navbar a:hover {
+    opacity:1;
+    background-color:#111111 !important;
 }
 
 .navbar-header a {
@@ -115,4 +147,39 @@ p {
     background-color:#FFB700;
     color:white;
 }
+
+.header .container-fluid {
+    padding:0px;
+}
+.jumbotron {
+    background-image: url("../img/header-bg.jpg");
+    color:white;
+    background-attachment: fixed;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding: 30px 0 30px;
+    width:100%;
+    margin-top:0px;
+    margin-bottom: 8px;    
+    border-radius: 0px !important;
+    text-shadow: black 0.3em 0.3em 0.3em;   
+}
+
+.jumbotron h1 {    
+    font-size:80px;
+}
+
+.jumbotron h1 .dot {
+    font-size:200px;
+    color:#FFB700;
+}
+
+.jumbotron p {
+    font-size: 15px;
+    
+}
+
+.jumbotron .btn { text-shadow:none;}
 
