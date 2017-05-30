@@ -208,6 +208,43 @@ p {
 .gallery img:hover {
 	opacity: 0.4;
 }
+
+/*Video*/
+
+.video {
+    background-color:#B5ABAB;   
+    min-height: 400px;
+    padding: 10% 0;
+    color:white;
+    
+    background-image: url("../img/video-bg.jpeg");
+    
+    background-attachment: fixed;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    
+    width:100%;
+    margin-top:0px;
+    margin-bottom: 0px;
+    border-radius: 0px !important;
+
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+
+.video span i::before{
+    color:#FFB700;
+    font-size: 6em;
+}
+
+.video h4 {
+    font-size:20px;
+    text-transform: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
 /*Custom Bootstrap*/
 
 .navbar {
