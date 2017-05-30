@@ -112,11 +112,10 @@ p {
 .products {
     text-align: center;
     margin-top: 0px;
-    padding-top:20px;
+    padding-top:30px;
     background-color:#CCCCCC;
 }
 
-.products h2,
 .products h4 {
 
     color: #4c4c4c;
@@ -129,9 +128,20 @@ p {
     width: 80px;
     font-size: 30px;
     padding: 25px 20px;
-    border-radius: 50%;
-    background-color: #6699cc;
+    border-radius: 50%;    
     color: #fff;
+}
+
+.products .item1 {
+    background-color: #FF9331;
+}
+
+.products .item2 {
+    background-color: #12B6AA;
+}
+
+.products .item3 {
+    background-color: #81A60E;
 }
 
 
