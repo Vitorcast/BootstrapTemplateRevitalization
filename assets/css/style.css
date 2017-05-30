@@ -118,7 +118,7 @@ p {
 
 .products h4 {
 
-    color: #4c4c4c;
+    color: white;
     margin: 20px 0 20px;
 }
 
@@ -153,7 +153,61 @@ p {
     }
 }
 
+/*Projects*/
 
+.projects .jumbotron {
+    background-color:white;    
+    background-attachment: fixed;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:400px;
+    padding: 30px 0 30px;
+    width:100%;
+    margin-top:0px;
+    margin-bottom: 0px;
+    border-radius: 0px !important;   
+}
+
+.projects .jumbotron h2 {
+    font-size:40px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.projects .jumbotron h2 .dot {
+    font-weight:700;
+    color:#FFB700;
+}
+.projects .jumbotron p {     
+    color:#ABA2A2;
+}
+
+@media(min-width:768px) {
+    .projects .jumbotron .china {
+        padding:0 200px;
+        color:#ABA2A2;
+    }
+}
+
+
+.projects .jumbotron .btn { text-shadow:none; margin-top:30px}
+
+.gallery {
+	margin-top: 30px;
+}
+
+.gallery img {
+    height:300px;
+}
+
+.gallery .v {
+    height:630px;
+}
+
+.gallery img:hover {
+	opacity: 0.4;
+}
 /*Custom Bootstrap*/
 
 .navbar {
