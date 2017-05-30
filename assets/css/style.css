@@ -248,10 +248,13 @@ p {
     color:#ABA2A2;
 }
 
-.header2 .jumbotron .china {
+@media(min-width:768px) {
+    .header2 .jumbotron .china {
     padding:0 200px;
     color:#ABA2A2;
 }
+}
+
 
 .header2 .jumbotron .btn { text-shadow:none; margin-top:30px}
 
